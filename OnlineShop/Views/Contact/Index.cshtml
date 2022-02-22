@@ -1,0 +1,126 @@
+﻿@model Model.EF.Contact
+@{
+    ViewBag.Title = "Liên hệ";
+    Layout = "~/Views/Shared/_Layouts.cshtml";
+}
+
+@*<style>
+        #mapCanvas {
+            height: 600px;
+
+        }
+    </style>*@
+
+@section jsFooter{
+
+    <script src="/Assets/Client/js/controller/contactController.js"></script>
+}
+<section class="banner_area">
+    <div class="banner_inner d-flex align-items-center">
+        <div class="container">
+            <div class="banner_content d-md-flex justify-content-between align-items-center">
+                <div class="mb-3 mb-md-0">
+                    <h2>Liên hệ</h2>
+                    <p>Sự hài lòng của quý khách là niềm vui của chúng tôi!</p>
+                </div>
+                <div class="page_link">
+                    <a href="/">Home</a>
+                    <a href="/lien-he">Liên hệ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                <div class="contact__widget">
+                    <span class="icon_phone"></span>
+                    <h4>Điện thoại</h4>
+                    <p>0356.471.166</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                <div class="contact__widget">
+                    <span class="icon_pin_alt"></span>
+                    <h4>Địa chỉ</h4>
+                    <p>Đ/c: số 28 ngõ 20/14 - Hồ Tùng Mậu - Cầu giấy - Hà Nội</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                <div class="contact__widget">
+                    <span class="icon_clock_alt"></span>
+                    <h4>Thời gian mở cửa</h4>
+                    <p>9:00 am to 22:00 pm</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                <div class="contact__widget">
+                    <span class="icon_mail_alt"></span>
+                    <h4>Email</h4>
+                    <p>cong30071998@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d930.9694024154105!2d105.77939412915396!3d21.03758259912462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454ca828ce3c5%3A0x2e45c12c5af61a66!2zMjggTmfDoWNoIDE0LCBNYWkgROG7i2NoLCBD4bqndSBHaeG6pXksIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1642134570214!5m2!1svi!2s" 
+            height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <div class="map-inside">
+        <i class="icon_pin"></i>
+        <div class="inside-widget">
+            <h4>Turo Shop</h4>
+            <ul>
+                <li>SĐT: 0356.471.166</li>
+                <li>Đ/c: số 28 ngõ 20/14 - Hồ Tùng Mậu - Cầu giấy - Hà Nội</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="contact-form spad">
+    <div class="container formSendinfo">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="contact__form__title">
+                    @*@Html.Raw(Model.Content)*@
+                    <h2>Gửi thông tin</h2>
+                </div>
+            </div>
+        </div>
+        <form action="#">
+            <div class="row">
+                <div class="col-lg-8 col-md-6">
+                    <input type="text" id="txtName" placeholder="Họ tên">
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    <input type="text" id="txtMobile" placeholder="Điện thoại">
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    <input type="text" id="txtAddress" placeholder="Địa chỉ">
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    <input type="text" id="txtEmail" placeholder="Email">
+                </div>
+                <div class="col-lg-12 text-center">
+                    <textarea id="txtContent" placeholder="Yêu cầu"></textarea>
+                    <button id="btnSend" type="submit" class="site-btn">Gửi đi</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<style>
+    .map {
+        border: 1px solid #BDBDBD;
+    }
+    .formSendinfo {
+        padding: 10px 20px;
+        border: 1px solid #BDBDBD;
+    }
+</style>

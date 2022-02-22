@@ -1,0 +1,52 @@
+﻿@model List<Model.EF.Menu>
+
+
+
+<div class="top_menu ">
+    <div class="container ">
+        <div class="row ">
+            <div class="col-lg-7">
+                <div class="float-left">
+                    <p>Phone: 0356.471.166</p>
+                    <p>email: cong30071998@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="float-right">
+                    @{ var session = (UserLogin)Session[OnlineShop.Common.CommonContants.USER_SESSION]; }
+                    @if (session == null)
+                    {
+                <ul>
+                    @foreach (var item in Model)
+                    {
+                <a class="btn btn-outline-success" href="@item.Link" target="@item.Target">@item.Text</a>
+}
+                </ul> }
+            else
+            {
+                <ul>
+                    Xin chào:@session.UserName ||
+                    @Html.ActionLink("Thoát", "Logout", "User")
+                </ul>}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .top_menu{
+        height:50px !important;
+    }
+    .float-left p {
+        margin-top:2% !important;
+        height: 80% !important;
+        font-size: 13px !important;
+        text-decoration:initial;
+    }
+    .float-right a {
+        margin-top: 5% !important;
+        height: 80% !important;
+        font-size: 16px !important;
+    }
+</style>
