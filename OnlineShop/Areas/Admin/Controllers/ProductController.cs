@@ -90,5 +90,13 @@ namespace OnlineShop.Areas.Admin.Controllers
         //        status = result
         //    });
         //}
+        public ActionResult ABC()
+        {
+            return View();
+        }
+        public ActionResult ABCD()
+        {
+            return View();
+        }
     }
 }
