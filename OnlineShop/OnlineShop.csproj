@@ -52,19 +52,19 @@
     </Reference>
     <Reference Include="CKFinder, Version=2.6.0.2792, Culture=neutral, PublicKeyToken=579e7adc719a1423, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Assets\Admin\js\Plugins\ckfinder\bin\Debug\CKFinder.dll</HintPath>
+      <HintPath>..\..\bootraps5\ckfinder\bin\Debug\CKFinder.dll</HintPath>
     </Reference>
     <Reference Include="CKFinder_FileEditor, Version=2.1.0.1132, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Assets\Admin\js\Plugins\ckfinder\bin\Debug\CKFinder_FileEditor.dll</HintPath>
+      <HintPath>..\..\bootraps5\ckfinder\bin\Debug\CKFinder_FileEditor.dll</HintPath>
     </Reference>
     <Reference Include="CKFinder_ImageResize, Version=2.1.0.1132, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Assets\Admin\js\Plugins\ckfinder\bin\Debug\CKFinder_ImageResize.dll</HintPath>
+      <HintPath>..\..\bootraps5\ckfinder\bin\Debug\CKFinder_ImageResize.dll</HintPath>
     </Reference>
     <Reference Include="CKFinder_Watermark, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Assets\Admin\js\Plugins\ckfinder\bin\Debug\CKFinder_Watermark.dll</HintPath>
+      <HintPath>..\..\bootraps5\ckfinder\bin\Debug\CKFinder_Watermark.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
@@ -691,6 +691,21 @@
     <Content Include="Assets\Admin\js\plugins\ckeditor\skins\moono\images\spinner.gif" />
     <Content Include="Assets\Admin\js\plugins\ckeditor\skins\moono\readme.md" />
     <Content Include="Assets\Admin\js\plugins\ckeditor\styles.js" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\bin\Debug\CKFinder.dll" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\bin\Debug\CKFinder.pdb" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\bin\Debug\CKFinder_FileEditor.dll" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\bin\Debug\CKFinder_FileEditor.pdb" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\bin\Debug\CKFinder_ImageResize.dll" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\bin\Debug\CKFinder_ImageResize.pdb" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\bin\Debug\CKFinder_Watermark.dll" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\bin\Debug\CKFinder_Watermark.pdb" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\bin\Release\CKFinder.dll" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\bin\Release\CKFinder_FileEditor.dll" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\bin\Release\CKFinder_FileEditor.pdb" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\bin\Release\CKFinder_ImageResize.dll" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\bin\Release\CKFinder_ImageResize.pdb" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\bin\Release\CKFinder_Watermark.dll" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\bin\Release\CKFinder_Watermark.pdb" />
     <Content Include="Assets\Admin\js\plugins\ckfinder\changelog.txt" />
     <Content Include="Assets\Admin\js\plugins\ckfinder\ckfinder.html" />
     <Content Include="Assets\Admin\js\plugins\ckfinder\ckfinder.js" />
@@ -1098,6 +1113,66 @@
     <Content Include="Assets\Admin\js\plugins\ckfinder\plugins\imageresize\images\mini.gif" />
     <Content Include="Assets\Admin\js\plugins\ckfinder\plugins\imageresize\plugin.js" />
     <Content Include="Assets\Admin\js\plugins\ckfinder\plugins\watermark\logo.gif" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\app.css" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\host.css" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\ai.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\avi.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\bmp.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\cs.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\default.icon.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\dll.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\doc.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\docx.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\exe.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\fla.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\gif.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\jpg.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\js.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\mdb.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\mp3.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\ogg.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\pdf.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\ppt.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\pptx.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\rdp.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\swf.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\swt.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\txt.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\vsd.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\xls.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\xlsx.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\xml.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\16\zip.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\ai.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\avi.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\cs.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\default.icon.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\dll.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\doc.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\docx.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\exe.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\fla.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\gif.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\jpg.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\js.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\mdb.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\mp3.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\ogg.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\pdf.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\ppt.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\pptx.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\rdp.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\swf.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\swt.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\txt.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\vsd.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\xls.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\xlsx.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\xml.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\images\icons\32\zip.png" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\skin.js" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\uipanel.css" />
     <Content Include="Assets\Admin\js\plugins\ckfinder\skins\kama\app.css" />
     <Content Include="Assets\Admin\js\plugins\ckfinder\skins\kama\host.css" />
     <Content Include="Assets\Admin\js\plugins\ckfinder\skins\kama\images\ckffolder.gif" />
@@ -1277,6 +1352,8 @@
     <Content Include="Assets\Admin\js\plugins\ckfinder\_samples\popups.html" />
     <Content Include="Assets\Admin\js\plugins\ckfinder\_samples\public_api.html" />
     <Content Include="Assets\Admin\js\plugins\ckfinder\_samples\sample.css" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\_samples\skin_bootstrap.html" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\_samples\skin_v1.html" />
     <Content Include="Assets\Admin\js\plugins\ckfinder\_samples\standalone.html" />
     <Content Include="Assets\Admin\js\plugins\ckfinder\_samples\standalone_v1.html" />
     <Content Include="Assets\Admin\js\plugins\perfect-scrollbar.min.js" />
@@ -3344,6 +3421,7 @@
     <Content Include="Assets\Client\Product\iphone-xs-max.jpg" />
     <Content Include="Assets\Client\Product\macbook.jpg" />
     <Content Include="Assets\Client\template\neworder.html" />
+    <Content Include="Assets\Ảnh\images.jfif" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -3882,6 +3960,10 @@
     <Content Include="Assets\Client2\vendors\linericon\fonts\Linearicons-Free.ttf" />
     <Content Include="Assets\Client2\vendors\linericon\fonts\Linearicons-Free.woff" />
     <Content Include="Assets\Client2\vendors\linericon\fonts\Linearicons-Free.woff2" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Assets\Admin\js\plugins\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Scripts\jquery-3.6.0-vsdoc.js" />
     <Content Include="Scripts\jquery-3.6.0.js" />
     <Content Include="Scripts\jquery-3.6.0.min.js" />
